@@ -1,0 +1,56 @@
+命令执行开始时间: 2025-09-01 14:20:40
+服务器: 10.20.192.104:22
+用户: root
+目标地址: 10.20.192.106
+ping次数: 15
+执行命令: ping 10.20.192.106 -c 15
+--------------------------------------------------------------------------------
+
+ping 10.20.192.106 -c 15
+
+Last login: Mon Sep  1 22:15:49 2025 from 10.11.35.230
+
+
+[root@localhost ~]# ping 10.20.192.106 -c 15
+
+PING 10.20.192.106 (10.20.192.106) 56(84) bytes of data.
+
+64 bytes from 10.20.192.106: icmp_seq=1 ttl=64 time=2.29 ms
+
+
+
+64 bytes from 10.20.192.106: icmp_seq=3 ttl=64 time=0.615 ms
+
+64 bytes from 10.20.192.106: icmp_seq=4 ttl=64 time=1.06 ms
+
+64 bytes from 10.20.192.106: icmp_seq=5 ttl=64 time=1.23 ms
+
+64 bytes from 10.20.192.106: icmp_seq=6 ttl=64 time=1.05 ms
+
+64 bytes from 10.20.192.106: icmp_seq=7 ttl=64 time=0.817 ms
+
+64 bytes from 10.20.192.106: icmp_seq=8 ttl=64 time=0.670 ms
+
+
+64 bytes from 10.20.192.106: icmp_seq=12 ttl=64 time=0.911 ms
+
+64 bytes from 10.20.192.106: icmp_seq=13 ttl=64 time=0.600 ms
+
+64 bytes from 10.20.192.106: icmp_seq=14 ttl=64 time=0.762 ms
+
+64 bytes from 10.20.192.106: icmp_seq=15 ttl=64 time=0.906 ms
+
+
+
+--- 10.20.192.106 ping statistics ---
+
+15 packets transmitted, 15 received, 0% packet loss, time 14012ms
+
+rtt min/avg/max/mdev = 0.600/0.930/2.297/0.407 ms
+
+[root@localhost ~]# 
+
+[系统] 命令执行超时已中断
+
+--------------------------------------------------------------------------------
+命令执行结束时间: 2025-09-01 14:21:15
